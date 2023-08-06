@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { ContactsItemStyle, DeleteBtn } from './Contactsitem.styled';
+
 export const ContactsItem = ({ name, number, id, deleteContact }) => {
   return (
     <ContactsItemStyle key={id}>
